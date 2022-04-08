@@ -1,5 +1,6 @@
 #include <stdio.h>
-/**
+/*
+ *
  * main - comment entry
  */
 int main(void)
