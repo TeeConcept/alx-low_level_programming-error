@@ -5,7 +5,7 @@
 *retuns 1 afer execution*/
 int main(void)
 {
-printf("with proper grammar, but the outcomeis a place of art,\n");
+	printf("\nwith proper grammar, but the outcome is a place of art,\n");
 return(0);
 }
 
