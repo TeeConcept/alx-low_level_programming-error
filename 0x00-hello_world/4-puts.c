@@ -2,8 +2,8 @@
 /**
  * main - comment entry
  */
-int main(void)
+int main()
 {
 	puts("\"Programming is like building a multiligual puzzle ");
-return (0);
+return 0;
 }
