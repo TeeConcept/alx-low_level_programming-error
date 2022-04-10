@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-char aphabt;
+char alphabt;
 for (alphabt = 'a'; alphabt <= 'z'; alphabt++)
 {
 if (alphabt == 'q')
@@ -14,7 +14,7 @@ continue;
 else if (alphabt == 'e')
 continue;
 
-putchar(aphabt);
+putchar(alphabt);
 }
 
 putchar('\n');
