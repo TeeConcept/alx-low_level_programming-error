@@ -6,13 +6,13 @@
 int main(void)
 {
 int i, j, k;
-for (i = 0; i < 9; i++)
+for (i = 0; i < 10; i++)
 {
-for (j = 1; j < 9; j++)
+for (j = 1; j < 10; j++)
 {
-for (k = 2; k < 9; k++)
+for (k = 2; k < 10; k++)
 {
-if ((k != j) != i)
+if (k > j && j > i)
 {
 
 putchar(i);
