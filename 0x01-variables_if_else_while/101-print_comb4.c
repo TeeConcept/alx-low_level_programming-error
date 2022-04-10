@@ -14,7 +14,9 @@ for (k = 4; k < 12; k++)
 {
 if (k > j && j > i)
 {
-putchar(i, j, k);
+putchar(i);
+putchar(j);
+putchar(k);
 {
 putchar(',');
 putchar(' ');
