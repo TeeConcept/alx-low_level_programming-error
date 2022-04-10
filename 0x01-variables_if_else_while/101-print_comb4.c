@@ -6,11 +6,11 @@
 int main(void)
 {
 int i, j, k;
-for (i = 2; i < 12; i++)
+for (i = 0; i < 9; i++)
 {
-for (j = 3; j < 12; j++)
+for (j = 1; j < 9; j++)
 {
-for (k = 4; k < 12; k++)
+for (k = 2; k < 9; k++)
 {
 if (k > j && j > i)
 {
