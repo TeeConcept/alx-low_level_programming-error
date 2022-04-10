@@ -17,10 +17,12 @@ if (k > j && j > i)
 putchar(i);
 putchar(j);
 putchar(k);
-{
+
+if (i == '7' && j == '8')
+	continue;
+
 putchar(',');
 putchar(' ');
-}
 }
 }
 }
