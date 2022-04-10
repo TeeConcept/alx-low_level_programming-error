@@ -12,8 +12,9 @@ for (j = 1; j < 9; j++)
 {
 for (k = 2; k < 9; k++)
 {
-if (k > j && j > i)
+if ((k != j) != i)
 {
+
 putchar(i);
 putchar(j);
 putchar(k);
