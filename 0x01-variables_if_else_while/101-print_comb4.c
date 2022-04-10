@@ -14,10 +14,7 @@ for (k = 4; k < 12; k++)
 {
 if (k > j && j > i)
 {
-putchar(i);
-putchar(j);
-putchar(k);
-if (i != 5 || j != 6)
+putchar(i, j, k);
 {
 putchar(',');
 putchar(' ');
