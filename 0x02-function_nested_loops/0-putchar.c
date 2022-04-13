@@ -1,14 +1,15 @@
-#include <stdio.h>
-int main(void)
+#include <main.h>
+int main
 {
-write("_putchar");
-{
-putchar("\n");
-putchar(" ");
+
+_putchar("_");
+_putchar("p");
+_putchar("u");
+_putchar("t");
+_putchar("c");
+_putchar("h");
+_putchar("a");
+_putchar("r");
+return;
+
 }
-
-return (0);
-
-}
-
-
